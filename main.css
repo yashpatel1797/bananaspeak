@@ -5,6 +5,7 @@
 body{
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
+    background-image: url("/img/minion.jpg");
 }
 nav{
     background-color:var(--primary-color);
@@ -30,6 +31,8 @@ button{
     margin: 1rem;
     padding: 1rem;
     background-color: var(--primary-color);
+    border-radius: 2rem;
+
 }
 h1 {
     
@@ -40,6 +43,7 @@ div {
     margin: 1rem;
     padding: 1rem; 
     width: 80%;
+    color: var(--primary-color);
     font-size: large;
     border: 1px black;
 }
